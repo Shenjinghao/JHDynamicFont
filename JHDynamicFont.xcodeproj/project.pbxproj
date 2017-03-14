@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84FEE6E1E769F9500CC09CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEE6D1E769F9500CC09CE /* main.m */; };
+		A84FEE711E769F9500CC09CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEE701E769F9500CC09CE /* AppDelegate.m */; };
+		A84FEE741E769F9500CC09CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEE731E769F9500CC09CE /* ViewController.m */; };
+		A84FEE771E769F9500CC09CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84FEE751E769F9500CC09CE /* Main.storyboard */; };
+		A84FEE7A1E769F9500CC09CE /* JHDynamicFont.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A84FEE781E769F9500CC09CE /* JHDynamicFont.xcdatamodeld */; };
+		A84FEE7C1E769F9500CC09CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84FEE7B1E769F9500CC09CE /* Assets.xcassets */; };
+		A84FEE7F1E769F9500CC09CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84FEE7D1E769F9500CC09CE /* LaunchScreen.storyboard */; };
+		A84FEE8A1E769F9500CC09CE /* JHDynamicFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEE891E769F9500CC09CE /* JHDynamicFontTests.m */; };
+		A84FEE951E769F9500CC09CE /* JHDynamicFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEE941E769F9500CC09CE /* JHDynamicFontUITests.m */; };
+		A84FEEA61E76A0A600CC09CE /* JHSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEEA51E76A0A600CC09CE /* JHSliderView.m */; };
+		A84FEEA91E76A5C900CC09CE /* JH_slider_Image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84FEEA71E76A5C900CC09CE /* JH_slider_Image@2x.png */; };
+		A84FEEAA1E76A5C900CC09CE /* JH_slider_Image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84FEEA81E76A5C900CC09CE /* JH_slider_Image@3x.png */; };
+		A84FEEAD1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEEAC1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m */; };
+		A84FEEB01E77CE1900CC09CE /* JHDynamicFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEEAF1E77CE1900CC09CE /* JHDynamicFontManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84FEE861E769F9500CC09CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84FEE611E769F9500CC09CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84FEE681E769F9500CC09CE;
+			remoteInfo = JHDynamicFont;
+		};
+		A84FEE911E769F9500CC09CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84FEE611E769F9500CC09CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84FEE681E769F9500CC09CE;
+			remoteInfo = JHDynamicFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A84FEE691E769F9500CC09CE /* JHDynamicFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHDynamicFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84FEE6D1E769F9500CC09CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A84FEE6F1E769F9500CC09CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A84FEE701E769F9500CC09CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A84FEE721E769F9500CC09CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A84FEE731E769F9500CC09CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A84FEE761E769F9500CC09CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A84FEE791E769F9500CC09CE /* JHDynamicFont.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JHDynamicFont.xcdatamodel; sourceTree = "<group>"; };
+		A84FEE7B1E769F9500CC09CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84FEE7E1E769F9500CC09CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A84FEE801E769F9500CC09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84FEE851E769F9500CC09CE /* JHDynamicFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDynamicFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84FEE891E769F9500CC09CE /* JHDynamicFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDynamicFontTests.m; sourceTree = "<group>"; };
+		A84FEE8B1E769F9500CC09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84FEE901E769F9500CC09CE /* JHDynamicFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDynamicFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84FEE941E769F9500CC09CE /* JHDynamicFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDynamicFontUITests.m; sourceTree = "<group>"; };
+		A84FEE961E769F9500CC09CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84FEEA41E76A0A600CC09CE /* JHSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSliderView.h; sourceTree = "<group>"; };
+		A84FEEA51E76A0A600CC09CE /* JHSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSliderView.m; sourceTree = "<group>"; };
+		A84FEEA71E76A5C900CC09CE /* JH_slider_Image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "JH_slider_Image@2x.png"; path = "Core/JH_slider_Image@2x.png"; sourceTree = "<group>"; };
+		A84FEEA81E76A5C900CC09CE /* JH_slider_Image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "JH_slider_Image@3x.png"; path = "Core/JH_slider_Image@3x.png"; sourceTree = "<group>"; };
+		A84FEEAB1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFontDescriptor+JHFontDescriptor.h"; sourceTree = "<group>"; };
+		A84FEEAC1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFontDescriptor+JHFontDescriptor.m"; sourceTree = "<group>"; };
+		A84FEEAE1E77CE1900CC09CE /* JHDynamicFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDynamicFontManager.h; sourceTree = "<group>"; };
+		A84FEEAF1E77CE1900CC09CE /* JHDynamicFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDynamicFontManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84FEE661E769F9500CC09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84FEE821E769F9500CC09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84FEE8D1E769F9500CC09CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84FEE601E769F9500CC09CE = {
+			isa = PBXGroup;
+			children = (
+				A84FEE6B1E769F9500CC09CE /* JHDynamicFont */,
+				A84FEE881E769F9500CC09CE /* JHDynamicFontTests */,
+				A84FEE931E769F9500CC09CE /* JHDynamicFontUITests */,
+				A84FEE6A1E769F9500CC09CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84FEE6A1E769F9500CC09CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEE691E769F9500CC09CE /* JHDynamicFont.app */,
+				A84FEE851E769F9500CC09CE /* JHDynamicFontTests.xctest */,
+				A84FEE901E769F9500CC09CE /* JHDynamicFontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84FEE6B1E769F9500CC09CE /* JHDynamicFont */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEEA21E76A08300CC09CE /* Classes */,
+				A84FEE6F1E769F9500CC09CE /* AppDelegate.h */,
+				A84FEE701E769F9500CC09CE /* AppDelegate.m */,
+				A84FEE721E769F9500CC09CE /* ViewController.h */,
+				A84FEE731E769F9500CC09CE /* ViewController.m */,
+				A84FEE751E769F9500CC09CE /* Main.storyboard */,
+				A84FEE7B1E769F9500CC09CE /* Assets.xcassets */,
+				A84FEE7D1E769F9500CC09CE /* LaunchScreen.storyboard */,
+				A84FEE801E769F9500CC09CE /* Info.plist */,
+				A84FEE781E769F9500CC09CE /* JHDynamicFont.xcdatamodeld */,
+				A84FEE6C1E769F9500CC09CE /* Supporting Files */,
+			);
+			path = JHDynamicFont;
+			sourceTree = "<group>";
+		};
+		A84FEE6C1E769F9500CC09CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEE6D1E769F9500CC09CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A84FEE881E769F9500CC09CE /* JHDynamicFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEE891E769F9500CC09CE /* JHDynamicFontTests.m */,
+				A84FEE8B1E769F9500CC09CE /* Info.plist */,
+			);
+			path = JHDynamicFontTests;
+			sourceTree = "<group>";
+		};
+		A84FEE931E769F9500CC09CE /* JHDynamicFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEE941E769F9500CC09CE /* JHDynamicFontUITests.m */,
+				A84FEE961E769F9500CC09CE /* Info.plist */,
+			);
+			path = JHDynamicFontUITests;
+			sourceTree = "<group>";
+		};
+		A84FEEA21E76A08300CC09CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEEA31E76A08300CC09CE /* Core */,
+				A84FEEA41E76A0A600CC09CE /* JHSliderView.h */,
+				A84FEEA51E76A0A600CC09CE /* JHSliderView.m */,
+				A84FEEA71E76A5C900CC09CE /* JH_slider_Image@2x.png */,
+				A84FEEA81E76A5C900CC09CE /* JH_slider_Image@3x.png */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A84FEEA31E76A08300CC09CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A84FEEAB1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.h */,
+				A84FEEAC1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m */,
+				A84FEEAE1E77CE1900CC09CE /* JHDynamicFontManager.h */,
+				A84FEEAF1E77CE1900CC09CE /* JHDynamicFontManager.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84FEE681E769F9500CC09CE /* JHDynamicFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84FEE991E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFont" */;
+			buildPhases = (
+				A84FEE651E769F9500CC09CE /* Sources */,
+				A84FEE661E769F9500CC09CE /* Frameworks */,
+				A84FEE671E769F9500CC09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHDynamicFont;
+			productName = JHDynamicFont;
+			productReference = A84FEE691E769F9500CC09CE /* JHDynamicFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84FEE841E769F9500CC09CE /* JHDynamicFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84FEE9C1E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFontTests" */;
+			buildPhases = (
+				A84FEE811E769F9500CC09CE /* Sources */,
+				A84FEE821E769F9500CC09CE /* Frameworks */,
+				A84FEE831E769F9500CC09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84FEE871E769F9500CC09CE /* PBXTargetDependency */,
+			);
+			name = JHDynamicFontTests;
+			productName = JHDynamicFontTests;
+			productReference = A84FEE851E769F9500CC09CE /* JHDynamicFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A84FEE8F1E769F9500CC09CE /* JHDynamicFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84FEE9F1E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFontUITests" */;
+			buildPhases = (
+				A84FEE8C1E769F9500CC09CE /* Sources */,
+				A84FEE8D1E769F9500CC09CE /* Frameworks */,
+				A84FEE8E1E769F9500CC09CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84FEE921E769F9500CC09CE /* PBXTargetDependency */,
+			);
+			name = JHDynamicFontUITests;
+			productName = JHDynamicFontUITests;
+			productReference = A84FEE901E769F9500CC09CE /* JHDynamicFontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84FEE611E769F9500CC09CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JHModule;
+				TargetAttributes = {
+					A84FEE681E769F9500CC09CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BLJZCAU36U;
+						ProvisioningStyle = Automatic;
+					};
+					A84FEE841E769F9500CC09CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A84FEE681E769F9500CC09CE;
+					};
+					A84FEE8F1E769F9500CC09CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A84FEE681E769F9500CC09CE;
+					};
+				};
+			};
+			buildConfigurationList = A84FEE641E769F9500CC09CE /* Build configuration list for PBXProject "JHDynamicFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84FEE601E769F9500CC09CE;
+			productRefGroup = A84FEE6A1E769F9500CC09CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84FEE681E769F9500CC09CE /* JHDynamicFont */,
+				A84FEE841E769F9500CC09CE /* JHDynamicFontTests */,
+				A84FEE8F1E769F9500CC09CE /* JHDynamicFontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84FEE671E769F9500CC09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84FEEAA1E76A5C900CC09CE /* JH_slider_Image@3x.png in Resources */,
+				A84FEE7F1E769F9500CC09CE /* LaunchScreen.storyboard in Resources */,
+				A84FEEA91E76A5C900CC09CE /* JH_slider_Image@2x.png in Resources */,
+				A84FEE7C1E769F9500CC09CE /* Assets.xcassets in Resources */,
+				A84FEE771E769F9500CC09CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84FEE831E769F9500CC09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84FEE8E1E769F9500CC09CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84FEE651E769F9500CC09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84FEE7A1E769F9500CC09CE /* JHDynamicFont.xcdatamodeld in Sources */,
+				A84FEEB01E77CE1900CC09CE /* JHDynamicFontManager.m in Sources */,
+				A84FEE741E769F9500CC09CE /* ViewController.m in Sources */,
+				A84FEE711E769F9500CC09CE /* AppDelegate.m in Sources */,
+				A84FEEAD1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m in Sources */,
+				A84FEE6E1E769F9500CC09CE /* main.m in Sources */,
+				A84FEEA61E76A0A600CC09CE /* JHSliderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84FEE811E769F9500CC09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84FEE8A1E769F9500CC09CE /* JHDynamicFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84FEE8C1E769F9500CC09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84FEE951E769F9500CC09CE /* JHDynamicFontUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84FEE871E769F9500CC09CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84FEE681E769F9500CC09CE /* JHDynamicFont */;
+			targetProxy = A84FEE861E769F9500CC09CE /* PBXContainerItemProxy */;
+		};
+		A84FEE921E769F9500CC09CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84FEE681E769F9500CC09CE /* JHDynamicFont */;
+			targetProxy = A84FEE911E769F9500CC09CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84FEE751E769F9500CC09CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84FEE761E769F9500CC09CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84FEE7D1E769F9500CC09CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84FEE7E1E769F9500CC09CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84FEE971E769F9500CC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A84FEE981E769F9500CC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84FEE9A1E769F9500CC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BLJZCAU36U;
+				INFOPLIST_FILE = JHDynamicFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHDynamicFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A84FEE9B1E769F9500CC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BLJZCAU36U;
+				INFOPLIST_FILE = JHDynamicFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHDynamicFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A84FEE9D1E769F9500CC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHDynamicFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHDynamicFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHDynamicFont.app/JHDynamicFont";
+			};
+			name = Debug;
+		};
+		A84FEE9E1E769F9500CC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JHDynamicFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHDynamicFontTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHDynamicFont.app/JHDynamicFont";
+			};
+			name = Release;
+		};
+		A84FEEA01E769F9500CC09CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JHDynamicFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHDynamicFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHDynamicFont;
+			};
+			name = Debug;
+		};
+		A84FEEA11E769F9500CC09CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JHDynamicFontUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JHModule.JHDynamicFontUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JHDynamicFont;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84FEE641E769F9500CC09CE /* Build configuration list for PBXProject "JHDynamicFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84FEE971E769F9500CC09CE /* Debug */,
+				A84FEE981E769F9500CC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84FEE991E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84FEE9A1E769F9500CC09CE /* Debug */,
+				A84FEE9B1E769F9500CC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A84FEE9C1E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84FEE9D1E769F9500CC09CE /* Debug */,
+				A84FEE9E1E769F9500CC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A84FEE9F1E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84FEEA01E769F9500CC09CE /* Debug */,
+				A84FEEA11E769F9500CC09CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A84FEE781E769F9500CC09CE /* JHDynamicFont.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A84FEE791E769F9500CC09CE /* JHDynamicFont.xcdatamodel */,
+			);
+			currentVersion = A84FEE791E769F9500CC09CE /* JHDynamicFont.xcdatamodel */;
+			path = JHDynamicFont.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A84FEE611E769F9500CC09CE /* Project object */;
+}
