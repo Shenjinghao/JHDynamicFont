@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   通过为UIFontDescriptor添加category方法实现动态改变指定控件（如UILabel UIButtonLabel等）的字体大小!!!
                    DESC
 
-  s.homepage     = "https://github.com/Shenjinghao/JHDynamicFont"
+  s.homepage     = "https://github.com/Shenjinghao/JHDynamicFont.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license      = "MIT"
