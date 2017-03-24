@@ -17,7 +17,7 @@ pod search JHDynamicFont
 ![gif](https://github.com/Shenjinghao/JHDynamicFont/blob/master/snapshot/DynamicFont.gif)
 
 - 2017年03月24日15:36:36   新增feature/MethodSwizzle分支，主要是利用runtime运行时包含的method swizzle来整体修改字体或者颜色等等
-- - 想要了解的可以下载项目后直接切换到feature/MethodSwizzle分支，更新代码即可
+ - 想要了解的可以下载项目后直接切换到feature/MethodSwizzle分支，更新代码即可
 ```
 git co feature/MethodSwizzle
 git pull
