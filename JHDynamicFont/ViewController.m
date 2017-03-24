@@ -20,7 +20,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void) viewDidLoad {
     [super viewDidLoad];
     
     [JHDynamicFontManager defaultManager];
@@ -67,11 +67,18 @@
     [_textLabel setTextAlignment:NSTextAlignmentCenter];
     [_textLabel setBackgroundColor:[UIColor whiteColor]];
     
-    UIFontDescriptor* descpripter = [UIFontDescriptor JH_preferredFontDescriptorWithTextStyle:JHFontTextStyleCaption4 contentString:UIContentSizeCategoryExtraLarge];
+    UIFontDescriptor* descpripter = [UIFontDescriptor                                                                                                                             JH_preferredFontDescriptorWithTextStyle:JHFontTextStyleCaption4 contentString:UIContentSizeCategoryExtraLarge];
     _textLabel.font = [UIFont fontWithDescriptor:descpripter size:0.0];
     [self.view addSubview:_textLabel];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receivedFontSizeChanged:) name:JHFontDidChangeNotification object:nil];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.tag = 10000;
+    button.backgroundColor = [UIColor grayColor];
+    button.frame = CGRectMake(15, 400, self.view.frame.size.width - 30, 45);
+    [button setTitle:[NSString stringWithFormat:@" 测试UIButtonLabel字体颜色 "] forState:UIControlStateNormal];
+    [self.view addSubview:button];
     
 }
 

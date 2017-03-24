@@ -21,6 +21,8 @@
 		A84FEEAA1E76A5C900CC09CE /* JH_slider_Image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84FEEA81E76A5C900CC09CE /* JH_slider_Image@3x.png */; };
 		A84FEEAD1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEEAC1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m */; };
 		A84FEEB01E77CE1900CC09CE /* JHDynamicFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEEAF1E77CE1900CC09CE /* JHDynamicFontManager.m */; };
+		A84FEEC71E7A6ED600CC09CE /* UILabel+JHLabelFontChange.m in Sources */ = {isa = PBXBuildFile; fileRef = A84FEEC61E7A6ED600CC09CE /* UILabel+JHLabelFontChange.m */; };
+		A8A8A36C1E80CA9100D00583 /* UIView+JHViewChange.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A8A36B1E80CA9100D00583 /* UIView+JHViewChange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		A84FEEAC1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFontDescriptor+JHFontDescriptor.m"; sourceTree = "<group>"; };
 		A84FEEAE1E77CE1900CC09CE /* JHDynamicFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDynamicFontManager.h; sourceTree = "<group>"; };
 		A84FEEAF1E77CE1900CC09CE /* JHDynamicFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDynamicFontManager.m; sourceTree = "<group>"; };
+		A84FEEC51E7A6ED600CC09CE /* UILabel+JHLabelFontChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JHLabelFontChange.h"; sourceTree = "<group>"; };
+		A84FEEC61E7A6ED600CC09CE /* UILabel+JHLabelFontChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JHLabelFontChange.m"; sourceTree = "<group>"; };
+		A8A8A36A1E80CA9100D00583 /* UIView+JHViewChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHViewChange.h"; sourceTree = "<group>"; };
+		A8A8A36B1E80CA9100D00583 /* UIView+JHViewChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHViewChange.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,10 @@
 				A84FEEAC1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m */,
 				A84FEEAE1E77CE1900CC09CE /* JHDynamicFontManager.h */,
 				A84FEEAF1E77CE1900CC09CE /* JHDynamicFontManager.m */,
+				A84FEEC51E7A6ED600CC09CE /* UILabel+JHLabelFontChange.h */,
+				A84FEEC61E7A6ED600CC09CE /* UILabel+JHLabelFontChange.m */,
+				A8A8A36A1E80CA9100D00583 /* UIView+JHViewChange.h */,
+				A8A8A36B1E80CA9100D00583 /* UIView+JHViewChange.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -317,11 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84FEE7A1E769F9500CC09CE /* JHDynamicFont.xcdatamodeld in Sources */,
+				A8A8A36C1E80CA9100D00583 /* UIView+JHViewChange.m in Sources */,
 				A84FEEB01E77CE1900CC09CE /* JHDynamicFontManager.m in Sources */,
 				A84FEE741E769F9500CC09CE /* ViewController.m in Sources */,
 				A84FEE711E769F9500CC09CE /* AppDelegate.m in Sources */,
 				A84FEEAD1E76A95D00CC09CE /* UIFontDescriptor+JHFontDescriptor.m in Sources */,
 				A84FEE6E1E769F9500CC09CE /* main.m in Sources */,
+				A84FEEC71E7A6ED600CC09CE /* UILabel+JHLabelFontChange.m in Sources */,
 				A84FEEA61E76A0A600CC09CE /* JHSliderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +566,7 @@
 				A84FEE9B1E769F9500CC09CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A84FEE9C1E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFontTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +575,7 @@
 				A84FEE9E1E769F9500CC09CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A84FEE9F1E769F9500CC09CE /* Build configuration list for PBXNativeTarget "JHDynamicFontUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +584,7 @@
 				A84FEEA11E769F9500CC09CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
